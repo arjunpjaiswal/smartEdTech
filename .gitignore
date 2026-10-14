@@ -1,0 +1,42 @@
+# Root .gitignore
+
+# IDE / Editor
+.idea/
+*.iml
+.vscode/
+*.swp
+*.DS_Store
+
+# Logs
+*.log
+
+# Env files (keep template, ignore actual)
+.env
+.env.local
+.env.*.local
+
+# Gradle
+.gradle/
+build/
+bin/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Uploads & Storage
+uploads/
+**/uploads/
+storage/
+**/storage/
+
+# Certificates & Private Keys
+*.pem
+*.pk
+*.key
+*.pkcs8
+
